@@ -1,0 +1,14 @@
+{
+    "name": "quentin/quete_composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Quentin-BLANC",
+            "email": "quentinblanc587@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
