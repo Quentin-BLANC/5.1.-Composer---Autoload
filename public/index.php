@@ -1,4 +1,14 @@
 <?php
+
 require '../vendor/autoload.php';
-$salut = new App\Wcs\Hello;
+
+use App\Wcs\Hello;
+use HelloWorld\SayHello;
+
+$salut = new Hello();
+echo $salut->talk(). '<br>';
+$salutMonde = new SayHello();
+
+echo $salutMonde->world();
+
 ?>
